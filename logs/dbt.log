@@ -1,0 +1,55 @@
+
+
+============================== 2023-05-03 18:16:49.567206 | 9f0161d9-4efb-4df8-802f-989db5a7bffc ==============================
+[0m18:16:49.567206 [info ] [MainThread]: Running with dbt=1.4.6
+[0m18:16:49.598478 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\yogi\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'load_bq', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m18:16:49.614085 [debug] [MainThread]: Tracking: tracking
+[0m18:16:49.651864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002154CEBD090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002154A7FC510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002154CEBF8D0>]}
+[0m18:16:49.651864 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\yogi\.dbt
+[0m18:16:49.651864 [debug] [MainThread]: Starter project path: C:\Users\yogi\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m18:23:48.958164 [info ] [MainThread]: Profile load_bq written to C:\Users\yogi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:23:48.958164 [info ] [MainThread]: 
+Your new dbt project "load_bq" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:23:48.973797 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002154E84F910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002154E8710D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002154E870C90>]}
+[0m18:23:48.973797 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-05-08 16:13:13.368266 | ef031ca8-1af2-4267-9eb1-b907a4a398ba ==============================
+[0m16:13:13.368266 [info ] [MainThread]: Running with dbt=1.4.6
+[0m16:13:13.395250 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\yogi\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'load_test_py', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m16:13:13.396249 [debug] [MainThread]: Tracking: tracking
+[0m16:13:13.413239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A06EBA5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A06ED5AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A06EDD410>]}
+[0m16:13:13.418235 [debug] [MainThread]: Starter project path: C:\Users\yogi\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m16:20:28.709560 [info ] [MainThread]: Profile load_test_py written to C:\Users\yogi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:20:28.710559 [info ] [MainThread]: 
+Your new dbt project "load_test_py" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:20:28.715556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A088A3710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A07B254D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023A06EEF810>]}
+[0m16:20:28.716555 [debug] [MainThread]: Flushing usage events

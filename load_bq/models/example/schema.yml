@@ -1,0 +1,54 @@
+
+version: 2
+
+models:
+  - name: stage
+    description: "A starter dbt model"
+    columns:
+      - name: Date
+        description: "The primary key for this table"		
+      - name: Transaction_Type
+        description: "The primary key for this table"		  
+      - name: Name
+        description: "The primary key for this table"			  
+      - name: Place
+        description: "The primary key for this table"
+      - name: Bank
+        description: "The primary key for this table"
+      - name: Account_Number
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null		
+      - name: Amount
+        description: "The primary key for this table"
+      - name: Currency
+        description: "The primary key for this table"		
+      - name: Category
+        description: "The primary key for this table"
+      - name: Notes
+        description: "The primary key for this table"
+
+  - name: stage_discard
+    description: "A starter dbt model"
+    columns:
+      - name: Date
+        description: "The primary key for this table"		
+      - name: Transaction_Type
+        description: "The primary key for this table"		  
+      - name: Name
+        description: "The primary key for this table"			  
+      - name: Place
+        description: "The primary key for this table"
+      - name: Bank
+        description: "The primary key for this table"
+      - name: Account_Number
+        description: "The primary key for this table"	
+      - name: Amount
+        description: "The primary key for this table"
+      - name: Currency
+        description: "The primary key for this table"		
+      - name: Category
+        description: "The primary key for this table"
+      - name: Notes
+        description: "The primary key for this table"
